@@ -1,4 +1,3 @@
-from cgi import print_environ
 import numpy as np 
 
 # Matriz 1D
@@ -60,5 +59,44 @@ print()
 
 # conocer el tamaño y forma de la matriz
 a=np.array([(1,2,3,4,5,6)])
-print(a.size)
-print(a.shape)
+print(a.size) #tamaño matriz
+print(a.shape) #forma de matriz
+print()
+
+# Extraer un solo valor de la matriz
+a=np.array([(1,2,3), (4,5,6)])
+print(a[0,2])
+print()
+
+# Extraer todos los valores de todas las filas ubicadas en la columna 3
+a=np.array([(1,2,3), (4,5,6)])
+print(a[0:,2])
+print()
+
+# Econtrar el minimo, maximo y la suma de una matriz
+a=np.array([1,2,3])
+print("El minimo de la matriz es: ",a.min())
+print(a.max())
+print(a.sum())
+print()
+
+# Calcular la raiz cuadrada y la desviacion estandar de una matriz
+a=np.array([(1,2,3), (4,5,6)])
+print(np.sqrt(a))
+print(np.std(a))
+print()
+
+# Calcular la multiplicacion, division, suma y resta de dos matrices
+a=np.array([(1,2,3,4), (5,6,7,8)])
+b=np.array([(1,2,3,4), (5,6,7,8)])
+print(a*b)
+print()
+print(a/b)
+print()
+print(a+b)
+print()
+print(a-b)
+
+
+
+
