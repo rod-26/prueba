@@ -78,7 +78,7 @@ a=np.array([1,2,3])
 print("El minimo de la matriz es: ",a.min())
 print(a.max())
 print(a.sum())
-print()
+print("")
 
 # Calcular la raiz cuadrada y la desviacion estandar de una matriz
 a=np.array([(1,2,3), (4,5,6)])
