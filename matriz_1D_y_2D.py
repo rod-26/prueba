@@ -12,7 +12,7 @@ print("2D array: ")
 print(b)
 print()
 
-# matriz de numeros 1 de tres filas y 4 columnas
+# matriz de numeros 1 de 3 filas y 4 columnas
 unos=np.ones((3,4))
 print(unos)
 print()
